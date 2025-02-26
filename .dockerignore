@@ -1,0 +1,14 @@
+# Git-Verzeichnis ausschließen
+.git
+.gitignore
+
+# Docker Compose Dateien, falls vorhanden
+docker-compose.yml
+
+# Umgebungsdateien
+.env
+
+# Python Cache und kompilierten Dateien
+__pycache__
+*.py[cod]
+*$py.class
