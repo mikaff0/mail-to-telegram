@@ -2,11 +2,8 @@ name: Monthly Docker Build
 
 on:
   schedule:
-    # Dieser Cron-Job startet am 1. jeden Monats um 00:00 UTC
     - cron: '0 0 1 * *'
-  push:
-    branches:
-      - main
+  workflow_dispatch:  # Ermöglicht manuelles Auslösen
 
 jobs:
   build:
